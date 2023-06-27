@@ -1,5 +1,5 @@
 'use client'
-import React,{useReducer, useState} from 'react'
+import react,{useReducer} from 'react'
 import styles from '../styles/common.module.css'
 
 const index = () => {
