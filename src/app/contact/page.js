@@ -3,7 +3,7 @@ import React from 'react'
 import {useState} from 'react'
 import styles from '../styles/common.module.css'
 
-const index = () => {
+const  Index = () => {
 
   const [user, setuser] = useState({
     username :"",
@@ -80,4 +80,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Index

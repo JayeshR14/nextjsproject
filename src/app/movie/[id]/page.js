@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../../styles/common.module.css'
 import Image from 'next/image'
-const page = async({params}) => {
+const Page = async({params}) => {
 
   const id = params.id;
   const url = `https://netflix54.p.rapidapi.com/title/details/?ids=${id}&lang=en`;
@@ -34,4 +34,4 @@ const page = async({params}) => {
   )
 }
 
-export default page
+export default Page

@@ -3,7 +3,7 @@ import styles from '../styles/common.module.css'
 import Link from 'next/link'
 import MovieCard from '../components/movieCard'
 
-const index = async() => {
+const Index = async() => {
 
 const url = "https://netflix54.p.rapidapi.com/search/?query=stranger&offset=0&limit_titles=50&limit_suggestions=20&lang=en";
 const options = {
@@ -32,4 +32,4 @@ const main_data = data.titles;
   )
 }
 
-export default index
+export default Index
