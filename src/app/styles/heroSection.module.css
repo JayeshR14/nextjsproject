@@ -1,0 +1,32 @@
+.main_section{
+    position: relative;
+}
+
+.hero_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.hero_content h1{
+    font-size: 3rem;
+}
+.hero_content p{
+    font-size: 2rem;
+    line-height: 1.65;
+    margin: 2rem 0 4rem 0;
+}
+.hero_content button{
+    height: 50px;
+    width:200px;
+}
+.hero_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_image img{
+    max-width: 100%;
+    height: auto;
+}

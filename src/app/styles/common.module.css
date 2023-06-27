@@ -1,0 +1,112 @@
+.container{
+    max-width: 140rem;
+    margin:0 auto;
+    padding: 6rem 3rem;
+}
+
+.grid_two_section{
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height:60rem;
+}
+.card{
+    max-width: 26rem;
+    border-radius: 8px;
+}
+.card_image img{
+    height:100%;
+    height: auto;
+    border-top-right-radius: .8rem;
+    border-top-left-radius: .8rem;
+}
+
+.card button{
+    height:50px;
+    width:200px;
+}
+
+.movie_title{
+    margin:3.2rem 0 3.2rem 0;
+}
+
+.card_section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:4.8rem;
+    flex-wrap: wrap;
+}
+
+.loading_section{
+   width: 100%;
+   height: 80vh;
+   display: grid;
+   place-items: center;
+}
+
+.loading {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .loading:after {
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    width: 0;
+    height: 0;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 32px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: loading 1.2s infinite;
+  }
+  @keyframes loading {
+    0% {
+      transform: rotate(0);
+      animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    50% {
+      transform: rotate(900deg);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    100% {
+      transform: rotate(1800deg);
+    }
+  }
+
+.contact_main{
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:50rem;
+}
+.contact_sec div{
+  display: flex;
+  height:auto;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.contact_sec div label{
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+.contact_sec div input{
+  font-size: 1.7rem;
+  height:4rem;
+  width:40rem;
+}
+.contact_sec div textarea{
+  font-size: 1.7rem;
+  height:10rem;
+  width:40rem;
+}
+.contact_sec button{
+  font-size: 1.7rem;
+  height:4.5rem;
+  width:15rem;
+}
